@@ -1,0 +1,104 @@
+div.svelte-mlmr4e{width:100%;height:100%;overflow:hidden}
+.container.svelte-1h37u3d{position:relative;width:100%;height:100%}.pane.svelte-1h37u3d{position:relative;float:left;width:100%;height:100%;overflow:auto}.mousecatcher.svelte-1h37u3d{position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(255,255,255,.01)}.divider.svelte-1h37u3d{position:absolute;z-index:10;display:none}.divider.svelte-1h37u3d::after{content:'';position:absolute;background-color:var(--second)}.horizontal.svelte-1h37u3d{padding:0 8px;width:0;height:100%;cursor:ew-resize}.horizontal.svelte-1h37u3d::after{left:8px;top:0;width:1px;height:100%}.vertical.svelte-1h37u3d{padding:8px 0;width:100%;height:0;cursor:ns-resize}.vertical.svelte-1h37u3d::after{top:8px;left:0;width:100%;height:1px}.left.svelte-1h37u3d,.right.svelte-1h37u3d,.divider.svelte-1h37u3d{display:block}.left.svelte-1h37u3d,.right.svelte-1h37u3d{height:100%;float:left}.top.svelte-1h37u3d,.bottom.svelte-1h37u3d{position:absolute;width:100%}.top.svelte-1h37u3d{top:0}.bottom.svelte-1h37u3d{bottom:0}
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+#form.svelte-15143iw{margin:0;padding:0;background:none;border:none}#input.svelte-15143iw{margin:0;padding:0;background:none;border:none;line-height:1em;height:100%;font-weight:bold}#span.svelte-15143iw{color:#000;font-weight:bold;margin:5px 0 0 5px}
+article.svelte-uksdtd.svelte-uksdtd{position:absolute;flex-direction:column;border-radius:3px;background:#ddd;display:flex;box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);transition:box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);width:300px;height:400px;z-index:100}article.svelte-uksdtd.svelte-uksdtd:hover{box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)}header.svelte-uksdtd.svelte-uksdtd{background:#bbb;border-radius:3px 3px 0 0;height:24px;width:100%;border-bottom:1px solid #aaa;cursor:move;padding:6px 0 0 6px}#remove.svelte-uksdtd.svelte-uksdtd{margin:-12px 12px 0 0;border-radius:10%;cursor:pointer;height:.5em;color:#ddd;float:right}#remove.svelte-uksdtd.svelte-uksdtd:hover{color:#ff460d}#main.svelte-uksdtd.svelte-uksdtd{flex-grow:1;--second:#bbb}#main.svelte-uksdtd div[slot="a"].svelte-uksdtd,#main.svelte-uksdtd div[slot="b"].svelte-uksdtd{height:100%}#main.svelte-uksdtd.svelte-uksdtd .svelte-highlight{margin:0;padding:3px 10px;height:100%;overflow-y:auto;box-sizing:border-box}footer.svelte-uksdtd.svelte-uksdtd{border-radius:0 0 3px 3px;border-top:1px solid #ddd;background:#bbb;height:20px;width:100%}#save.svelte-uksdtd.svelte-uksdtd{line-height:1em;height:100%}

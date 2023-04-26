@@ -1,0 +1,6 @@
+include: resource://Neos.Fusion/Private/Fusion/Root.fusion
+
+Wwwision.ProjectionPlayground.QueryController.index = afx`
+  <div id="app" data-contentrepositoryid={contentRepositoryId.value} data-workspaces={Json.stringify(Array.map(workspaces, w => {name: w.workspaceTitle, contentStreamId: w.currentContentStreamId}))}></div>
+  <script defer src={StaticResource.uri('Wwwision.ProjectionPlayground', 'Public/bundle.js')}></script>
+`

@@ -1,0 +1,17 @@
+privilegeTargets:
+  'Neos\Neos\Security\Authorization\Privilege\ModulePrivilege':
+    'Wwwision.ProjectionPlayground:QueryModule':
+      matcher: 'administration/projection-playground'
+
+  'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
+    'Wwwision.ProjectionPlayground:EventStream':
+      matcher: method(Wwwision\ProjectionPlayground\ContentRepository\EventStreamService->loadEvents())
+
+
+roles:
+  'Neos.Neos:Administrator':
+    privileges:
+      - privilegeTarget: 'Wwwision.ProjectionPlayground:QueryModule'
+        permission: GRANT
+      - privilegeTarget: 'Wwwision.ProjectionPlayground:EventStream'
+        permission: GRANT

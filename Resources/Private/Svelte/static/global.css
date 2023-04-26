@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "codicon";
+	src: url(./a4ea11dc02f39f5229b70dc63fd1944d.ttf) format("truetype");
+}
+.neos.neos-module textarea {
+  padding: 0;
+  border: none;
+}
+.neos.neos-module textarea:focus {
+  border: none;
+}
+.neos.neos-module .neos-footer select {
+  margin-right: 8px;
+}
+
+.neos.neos-module ::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border: none;
+}
+.neos.neos-module ::-webkit-scrollbar-track {
+  background-color: #eee;
+}

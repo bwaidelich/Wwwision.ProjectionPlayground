@@ -1,0 +1,17 @@
+Neos:
+  Neos:
+    modules:
+      'administration':
+        submodules:
+          'projection-playground':
+            label: 'Projection Playground'
+            controller: 'Wwwision\ProjectionPlayground\Controller\QueryController'
+            description: 'Module that allows for creating and testing CR projections on the fly'
+            icon: 'fas fa-cubes'
+            additionalResources:
+              styleSheets:
+                - 'resource://Wwwision.ProjectionPlayground/Public/bundle.css'
+                - 'resource://Wwwision.ProjectionPlayground/Public/global.css'
+    fusion:
+      autoInclude:
+        'Wwwision.ProjectionPlayground': true
