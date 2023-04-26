@@ -2,6 +2,7 @@
     "description": "Neos backend module that allows for creating and testing ESCR projections on the fly",
     "type": "neos-package",
     "name": "wwwision/projection-playground",
+    "license": "MIT",
     "require": {
         "neos/neos": "*",
         "neos/contentrepository-core": "*"
@@ -18,5 +19,15 @@
         "neos": {
             "package-key": "Wwwision.ProjectionPlayground"
         }
-    }
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/bwaidelich"
+        },
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.me/bwaidelich"
+        }
+    ]
 }
